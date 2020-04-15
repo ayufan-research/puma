@@ -7,7 +7,7 @@ require_relative 'lib/puma/detect'
 require 'rubygems/package_task'
 require 'bundler/gem_tasks'
 
-gemspec = Gem::Specification.load("puma.gemspec")
+gemspec = Gem::Specification.load("gitlab-puma.gemspec")
 Gem::PackageTask.new(gemspec).define
 
 # Add rubocop task
